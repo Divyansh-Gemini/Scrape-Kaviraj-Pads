@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import parse_qs, urlparse
-from Pad import Pad
+from src.Pad import Pad
 import csv
 
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
     website_url = "http://kavirajpadplayer.gnanipurush.com/"
     html_file_path = "data/kavirajpadplayer.html"
-    csv_file_path = "data/pads.csv"
+    csv_file_path = "data/pads2.csv"
 
     match choice:
         case "1":
